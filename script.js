@@ -15,7 +15,7 @@ function enviarEmail () {
       method: 'POST',
       body: JSON.stringify(reclamacao),
       headers: {
-        'Content-Type': 'application/json',
+        'Content-Type': 'application/json'
       }
     }
   ).then(response => console.log("criou!"))
