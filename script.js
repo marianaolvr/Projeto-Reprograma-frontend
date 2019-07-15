@@ -18,7 +18,12 @@ function enviarEmail () {
         'Content-Type': 'application/json'
       }
     }
-  ).then(response => console.log("criou!"))
+  ).then(() =>{
+    nomeCompleto = ''
+    instituicaoEnsino = ''
+    endereco = ''
+    email = ''
+  })
 }
 
 
