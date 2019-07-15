@@ -9,9 +9,8 @@ function enviarEmail () {
     nomeCompleto, instituicaoEnsino, endereco, email
   }
 
-  
   fetch(
-    'https://ahistoriadetodos.herokuapp.com/',
+    'https://ahistoriadetodos.herokuapp.com/reclamacoes/send-email',
     {
       method: 'POST',
       body: JSON.stringify(reclamacao),
