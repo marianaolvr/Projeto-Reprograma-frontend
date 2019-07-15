@@ -1,0 +1,70 @@
+.primeiroContainer{
+    height: 90vh;
+    background-color: #eceff1;
+    
+}
+
+.introducao {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 10em;
+    position: relative;
+    margin: 0;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.segundoContainer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #383d50;
+ }
+
+.terceiroContainer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+  }
+
+.quartoContainer{
+    height: 100vh;
+    background-color: rgb(243, 239, 233);
+    display: flex;
+    align-items: center;
+    background-color: #383d50;
+   }
+
+.nav-wrapper{
+    background-color: #546e7a;
+}
+
+.inputInstituicao{
+    color: #0a0a0a;
+}
+
+
+.formulario{
+    background-color: aqua;
+}
+
+.rodape__pagina {
+    background-color: #546e7a;
+    color: white;
+    font-size: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.ilustraLivro{
+    display: flex;
+    align-items: center;
+}
+
+
+#título{
+    color:white;
+}
