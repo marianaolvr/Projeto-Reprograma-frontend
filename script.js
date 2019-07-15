@@ -24,7 +24,11 @@ function enviarEmail () {
     endereco = ''
     email = ''
   })
+
+  alert("E-mail enviado!")
+
 }
+
 
 
 
