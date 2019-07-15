@@ -1,6 +1,7 @@
 const botao = document.querySelector('.btnEnviar')
 botao.addEventListener("click", enviarEmail)
 function enviarEmail () {
+  this.preventDefault()
   const nomeCompleto = document.querySelector(".inputNomeCompleto").value
   const instituicaoEnsino = document.querySelector(".inputEscola").value
   const endereco = document.querySelector(".inputEndereco").value
