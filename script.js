@@ -11,7 +11,7 @@ function enviarEmail () {
 
   
   fetch(
-    'http://localhost:3000/reclamacoes/send-email',
+    'https://ahistoriadetodos.herokuapp.com/',
     {
       method: 'POST',
       body: JSON.stringify(reclamacao),
