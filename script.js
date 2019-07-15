@@ -16,7 +16,6 @@ function enviarEmail () {
       body: JSON.stringify(reclamacao),
       headers: {
         'Content-Type': 'application/json',
-        'Accept': 'application/json'
       }
     }
   ).then(response => console.log("criou!"))
